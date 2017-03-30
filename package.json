@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config",
+  "name": "eslint-config-dq",
   "version": "1.0.0",
   "description": "Eslint config we use, based on airbnb config",
   "main": "index.js",
