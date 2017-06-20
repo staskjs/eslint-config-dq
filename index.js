@@ -6,6 +6,7 @@ module.exports = {
         'global-require': 0,
         'no-console': 0,
         'no-throw-literal': 0,
+        'object-shorthand': ['error', 'always', { avoidQuotes: false }],
     },
     settings: {
         'import/resolver': 'webpack',
