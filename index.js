@@ -4,22 +4,23 @@ module.exports = {
       'plugin:lodash-fp/recommended'
     ],
     rules: {
-        'brace-style': [2, 'stroustrup', { allowSingleLine: true }],
-        'func-names': 0,
-        'global-require': 0,
-        'no-console': 0,
-        'no-throw-literal': 0,
-        "no-use-before-define": 0,
-        "lodash-fp/prefer-identity": 0
+      'brace-style': [2, 'stroustrup', { allowSingleLine: true }],
+      'func-names': 0,
+      'global-require': 0,
+      'no-console': 0,
+      'no-throw-literal': 0,
+      'no-use-before-define': 0,
+      'lodash-fp/prefer-identity': 0,
+      'object-shorthand': ['error', 'always', { avoidQuotes: false }],
     },
     settings: {
-        'import/resolver': 'webpack',
+      'import/resolver': 'webpack',
     },
     env: {
-        browser: true,
+      browser: true,
     },
     plugins: [
-        'vue',
-        'lodash-fp'
+      'vue',
+      'lodash-fp',
     ]
 };
